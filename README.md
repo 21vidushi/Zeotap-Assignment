@@ -1,22 +1,23 @@
-Zeotap Assignment - Project Documentation
+**Zeotap Assignment - Project Documentation**
 1. Rule Engine with Abstract Syntax Tree (AST)
-Overview
+**Overview:**
 This project involves developing a Rule Engine using Abstract Syntax Trees (AST) to determine user eligibility based on dynamic conditions such as age, department, income, and spend. The frontend offers a simple interface, while the backend provides robust functionality for storing and processing rules.
 
-Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Database: MongoDB
-Key Features
+**Technologies Used**
+  Frontend: HTML, CSS, JavaScript
+  Backend: Node.js, Express.js
+  Database: MongoDB
+  Key Features
 User-friendly interface for inputting and managing conditional rules.
 AST-based evaluation mechanism to analyze and apply user-specific rules.
 MongoDB used for efficiently storing large amounts of rule and user data.
-Setup and Instructions
-Environment Configuration:
+
+**Setup and Instructions**
+**Environment Configuration:**
 
 Ensure you have a .env file with your MongoDB connection string (example: MONGODB_URL=your-mongodb-url).
-Backend Setup:
-
+**Backend Setup:
+**
 Navigate to the project directory in your terminal.
 Run npm install to install all dependencies.
 Start the backend server using:
@@ -29,22 +30,22 @@ Frontend Setup:
 Open the index.html file in your browser to access the application interface.
 Alternatively, you can use the Go Live feature in VS Code to launch the frontend.
 
-2. Weather Monitoring App
-Overview
+**2. Weather Monitoring App**
+**Overview**
 The Weather Monitoring App allows users to access and monitor weather conditions in various locations. The frontend displays real-time weather data fetched using an API, while the backend securely manages user information and authentication.
 
-Technologies Used
+**Technologies Used**
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: MongoDB
 External APIs: OpenWeather API for fetching weather data
 
-Key Features
+**Key Features**
 Displays real-time weather data for different locations.
 Secure user authentication using JWT.
 Integration with external weather APIs to fetch accurate weather details.
 
-Setup and Instructions
+**Setup and Instructions**
 Environment Configuration:
 
 Create a .env file with the following variables:
