@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Monitoring System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Monitoring System</h1>
+
+        <!-- Section to display alerts -->
+        <div class="alert-section">
+            <h2>Weather Alerts</h2>
+            <div id="alerts"></div>
+        </div>
+
+        <!-- Section to display daily summaries -->
+        <div class="summary-section">
+            <h2>Daily Weather Summaries</h2>
+            <div id="dailySummaries"></div>
+        </div>
+
+        <!-- Button to trigger summary calculation -->
+        <button id="triggerSummaryBtn">Trigger Daily Summary Calculation</button>
+
+        <!-- Section to display latest summary -->
+        <div class="latest-summary-section">
+            <h2>Latest Daily Summary</h2>
+            <div id="latestSummary" class="summary"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
